@@ -1,0 +1,239 @@
+.navhehe {
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; */
+  border-left: 10px solid #0606bf;
+  border-right: 10px solid #0606bf;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 80px;
+  background-color: #00008B;
+}
+
+.textli {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.textnav {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.activeW{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.textnav:hover {
+  color: rgb(195, 195, 195);
+  background-color: blue;
+  border: none;
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  box-shadow: 0px 8px 16px 0px rgba(74, 74, 74, 0.2);
+}
+ 
+.button1{
+    border-color: blue;
+    background-color: skyblue;
+    color: white;
+    text-decoration: none;
+}
+.button1:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+    animation: auto;
+    transform: translateX(8px);
+    transition: all .5s;
+}
+.button2{
+    border: 3px solid skyblue;
+    background-color: #0D6EFD;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.button2:hover{
+    border: 3px solid #0D6EFD;
+    background-color: white;
+    color: black;
+    animation: auto;
+    transition: all .5s;
+}
+ 
+.Border{
+    border: 1px solid black;
+}
+.text{
+    text-indent: 12px;
+    text-align: justify;
+}
+.main-section{
+    height: 85vh;
+    background-image: url(image4.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.real{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid skyblue;
+    color: #0D6EFD;
+    background-color: lightgreen;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+a .real{
+    opacity: 1;
+}
+ 
+.imgq{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px 5px gray;
+}
+.imgq:hover{
+    transform: translateY(-10px);
+    transition: all 0.8s;
+}
+ 
+/* test */
+.cones {
+    position: relative;
+  }
+ 
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 260px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+ 
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+  .cones:hover .image {
+    opacity: 0.23;
+  }
+ 
+  .cones:hover .middle {
+    opacity: 1;
+  }
+ 
+  .text {
+    color: Black;
+    font-size: 16px;
+  }
+  .img_size{
+    width: 100%;
+    background-attachment: fixed;
+  }
+  .hr_border{
+    border: solid gray;
+  }
+  .p_font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    text-align: justify;
+    text-indent: 15px;
+  }
+  .ku{
+        height: 45vh;
+      }
+      .kul{
+        height: 50vh;
+        width: 45vh;
+      }
+      .text-font{
+        font-size: 20px;
+      }
+  .iconsC{
+    text-decoration: none;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .iconsC:hover{
+    color: aliceblue;
+    border: none;
+    transform: scale(2.1, 2.1);
+    transition: all 0.3s;
+  }
+
+  .border_me{
+    border: 3px solid #3333ff;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .border_me1{
+    border: 3px solid aliceblue;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .typekind{
+    text-align: center;
+    color: aliceblue;
+  }
+  .typekind:hover{
+    color: aqua;
+    transition: all 0.8s;
+  }
+
+  .border12{
+    background-color: aliceblue;
+    color: white;
+    text-shadow: 2px 0 10px black;
+  }
+
+  .formcontrol {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c3c3;
+    border-radius: 5px;
+  }
+  .formcontrol:focus {
+    outline: none;
+    border-color: #ff7e73;
+  }
+  .yes{
+    margin-left: 73px
+  }
+
+  @media screen and (max-width: 768px){
+    .dont, .yes{
+      margin: 0;
+    }
+    .ku{
+          height: 20vh;
+          font-size: 10px;
+        }
+    .nochioce, .inshock{
+      display: block;
+    }
+    .typetext{
+      text-align: justify;
+    }
+    .inshock{
+      width: 100%;
+      margin: 0;
+    }
+    .nochioce div{
+      margin: 0 auto;
+    }
+}
